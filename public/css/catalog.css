@@ -1,0 +1,27 @@
+.catalog-tree__link {
+    text-decoration: none;
+}
+
+.catalog-tree__link--active {
+    font-weight: 700;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.catalog-tree__link--path {
+    color: #198754;
+    font-weight: 600;
+}
+
+.product-card {
+    transition: box-shadow 0.15s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+#catalog-listing.is-loading {
+    opacity: 0.55;
+    pointer-events: none;
+}
